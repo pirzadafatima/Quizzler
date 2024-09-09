@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3f2fd"
+    tools:context=".InstructionsActivity">
+
+    <TextView
+        android:id="@+id/instructionsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#ff5a00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/instructionsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/instructionsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/agreeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agree and Start Quiz"
+        android:textSize="18dp"
+        android:backgroundTint="#2196F3"
+        android:background="@drawable/rounded_button"
+        android:textColor="#ffffff"
+        android:layout_below="@id/instructionsText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>

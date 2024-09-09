@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3f2fd"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/quizTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quizzler"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="#ff6347"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/mainLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are You Ready? Click Start to begin the quiz!"
+        android:textSize="16dp"
+        android:layout_below="@id/quizTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:textSize="18dp"
+        android:backgroundTint="#2196F3"
+        android:textColor="#ffffff"
+        android:layout_below="@id/mainLine"
+        android:background="@drawable/rounded_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>

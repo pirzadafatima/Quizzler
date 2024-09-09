@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="instructions">Read the following instructions before starting the quiz.\n\n1. You have 2 minutes to complete the quiz.\n2. Each correct answer awards
+    5 points, and 1 point is deducted for each incorrect answer.\n3. If you view the answer of any question, 1 point will be deducted from the total. \n4. Click Agree to start the quiz.</string>
+
+    <string name="question1">What is the capital of France?</string>
+    <string-array name="question1_options">
+        <item>Berlin</item>
+        <item>Madrid</item>
+        <item>Paris</item>
+        <item>Rome</item>
+    </string-array>
+    <string name="answer1">Paris</string>
+
+    <string name="question2">Who is the National Poet of Pakistan?</string>
+    <string-array name="question2_options">
+        <item>Hafeez Jalandhari</item>
+        <item>Muhammad Ali Jinnah</item>
+        <item>Muhammad Iqbal</item>
+        <item>Noor Jehan</item>
+    </string-array>
+    <string name="answer2">Muhammad Iqbal</string>
+
+
+    <string name="question3">What is the smallest prime number?</string>
+    <string-array name="question3_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string name="answer3">2</string>
+
+    <string name="question4">Which language is most widely spoken in Pakistan?</string>
+    <string-array name="question4_options">
+        <item>Urdu</item>
+        <item>Punjabi</item>
+        <item>Sindhi</item>
+        <item>Pashto</item>
+    </string-array>
+    <string name="answer4">Punjabi</string>
+
+    <string name="question5">Who is the first Muslim to win a Nobel Prize?</string>
+    <string-array name="question5_options">
+        <item>Malala Yousafzai</item>
+        <item>Abdus Salam</item>
+        <item>Allama Iqbal</item>
+        <item>Benazir Bhutto</item>
+    </string-array>
+    <string name="answer5">Abdus Salam</string>
+
+    <string name="question6">Which planet is known as the Red Planet?</string>
+    <string-array name="question6_options">
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Venus</item>
+    </string-array>
+    <string name="answer6">Mars</string>
+
+    <string name="question7">What is the national animal of Pakistan?</string>
+    <string-array name="question7_options">
+        <item>Markhor</item>
+        <item>Tiger</item>
+        <item>Lion</item>
+        <item>Leopard</item>
+    </string-array>
+    <string name="answer7">Markhor</string>
+
+    <string name="question8">Who invented the World Wide Web?</string>
+    <string-array name="question8_options">
+        <item>Steve Jobs</item>
+        <item>Bill Gates</item>
+        <item>Tim Berners-Lee</item>
+        <item>Mark Zuckerberg</item>
+    </string-array>
+    <string name="answer8">Tim Berners-Lee</string>
+
+    <string name="question9">What is the longest river in the world?</string>
+    <string-array name="question9_options">
+        <item>Nile</item>
+        <item>Amazon</item>
+        <item>Yangtze</item>
+        <item>Mississippi</item>
+    </string-array>
+    <string name="answer9">Nile</string>
+
+    <string name="question10">Which is the smallest country in the world?</string>
+    <string-array name="question10_options">
+        <item>Monaco</item>
+        <item>Malta</item>
+        <item>Vatican City</item>
+        <item>Liechtenstein</item>
+    </string-array>
+    <string name="answer10">Vatican City</string>
+
+    <string name="question11">What is the chemical symbol for water?</string>
+    <string-array name="question11_options">
+        <item>O2</item>
+        <item>H2O</item>
+        <item>CO2</item>
+        <item>N2</item>
+    </string-array>
+    <string name="answer11">H2O</string>
+
+    <string name="question12">What is the largest continent by land area?</string>
+    <string-array name="question12_options">
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>North America</item>
+    </string-array>
+    <string name="answer12">Asia</string>
+
+    <string name="question13">Which Surah of the Quran is known as the Heart of the Quran?</string>
+    <string-array name="question13_options">
+        <item>Surah Al-Baqarah</item>
+        <item>Surah Al-Ikhlas</item>
+        <item>Surah Yaseen</item>
+        <item>Surah Al-Fatiha</item>
+    </string-array>
+    <string name="answer13">Surah Yaseen</string>
+
+    <string name="question14">What is the national flower of Pakistan?</string>
+    <string-array name="question14_options">
+        <item>Rose</item>
+        <item>Jasmine</item>
+        <item>Lily</item>
+        <item>Sunflower</item>
+    </string-array>
+    <string name="answer14">Jasmine</string>
+
+    <string name="question15">Which element is essential for the formation of bones and teeth?</string>
+    <string-array name="question15_options">
+        <item>Iron</item>
+        <item>Calcium</item>
+        <item>Potassium</item>
+        <item>Sodium</item>
+    </string-array>
+    <string name="answer15">Calcium</string>
+
+    <string name="question16">In which year did Pakistan become an Islamic Republic?</string>
+    <string-array name="question16_options">
+        <item>1947</item>
+        <item>1956</item>
+        <item>1965</item>
+        <item>1971</item>
+    </string-array>
+    <string name="answer16">1956</string>
+
+    <string name="question17">Which is the largest organ of the human body?</string>
+    <string-array name="question17_options">
+        <item>Heart</item>
+        <item>Brain</item>
+        <item>Liver</item>
+        <item>Skin</item>
+    </string-array>
+    <string name="answer17">Skin</string>
+
+    <string name="question18">Which programming language is used to build Android apps?</string>
+    <string-array name="question18_options">
+        <item>Python</item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>Ruby</item>
+    </string-array>
+    <string name="answer18">Java</string>
+
+    <string name="question19">What is the first revelation in the Quran?</string>
+    <string-array name="question19_options">
+        <item>Iqra</item>
+        <item>Yaseen</item>
+        <item>Al-Fatiha</item>
+        <item>Al-Ikhlas</item>
+    </string-array>
+    <string name="answer19">Iqra</string>
+
+    <string name="question20">Who was the first Prime Minister of Pakistan?</string>
+    <string-array name="question20_options">
+        <item>Liaquat Ali Khan</item>
+        <item>Ayub Khan</item>
+        <item>Zulfikar Ali Bhutto</item>
+        <item>Benazir Bhutto</item>
+    </string-array>
+    <string name="answer20">Liaquat Ali Khan</string>
+
+</resources>
