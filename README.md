@@ -1,11 +1,11 @@
-# Quiz App 📚✨
+# Quizzler 📚✨
 
 This is a simple Quiz Application built in Java and XML for Android, featuring multiple-choice questions (MCQs), a scoring system, a timer, and result display.
 
 ## Features
 
 - 📋 **Corpus of MCQs:**  
-  Contains 20–30 multiple-choice questions, each with 4 options, stored in `strings.xml` file.
+  Contains 20 multiple-choice questions, each with 4 options, stored in `strings.xml` file.
 
 - 🔄 **Navigation:**  
   "Next" and "Prev" buttons to move between questions.
@@ -16,7 +16,7 @@ This is a simple Quiz Application built in Java and XML for Android, featuring m
   - Viewing the correct answer ➔ -1 point immediately applied
 
 - ⏳ **Timer:**  
-  A countdown timer is provided to attempt the entire quiz within a set time limit (in minutes).
+  A countdown timer is provided to attempt the entire quiz within a set time limit (20 minutes).
 
 - 🎯 **Live Stats:**  
   Displays current score and remaining time at the top of the screen.
